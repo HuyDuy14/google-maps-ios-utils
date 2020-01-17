@@ -110,6 +110,13 @@
 			remoteGlobalIDString = 0242D1791C7C16A400557130;
 			remoteInfo = GoogleMapsUtils;
 		};
+		AA2BBBA123D27A6A008D61DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0242D1721C7C16A400557130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0242D1CB1C7C1C1F00557130;
+			remoteInfo = DevApp;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -773,6 +780,7 @@
 			);
 			dependencies = (
 				0242D2051C7D3AC300557130 /* PBXTargetDependency */,
+				AA2BBBA223D27A6A008D61DA /* PBXTargetDependency */,
 			);
 			name = UnitTest;
 			productName = Test;
@@ -804,6 +812,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -1028,6 +1037,11 @@
 			target = 0242D1791C7C16A400557130 /* GoogleMapsUtils */;
 			targetProxy = 0242D2041C7D3AC300557130 /* PBXContainerItemProxy */;
 		};
+		AA2BBBA223D27A6A008D61DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0242D1CB1C7C1C1F00557130 /* DevApp */;
+			targetProxy = AA2BBBA123D27A6A008D61DA /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -1238,7 +1252,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0242D1871C7C18CA00557130 /* GMU-UnitTest.debug.xcconfig */;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1253,7 +1267,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0242D20F1C7E72C500557130 /* GMU-UnitTest.release.xcconfig */;
 			buildSettings = {
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

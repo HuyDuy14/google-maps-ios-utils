@@ -13,5 +13,5 @@
  * limitations under the License.
  */
 
-#error Change this key to a valid key registered with the demo app bundle id. Then delete this line.
+// Change this key to a valid key registered with the demo app bundle id.
 static NSString *const kMapsAPIKey = @"";

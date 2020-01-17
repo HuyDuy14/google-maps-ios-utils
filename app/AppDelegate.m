@@ -31,6 +31,9 @@
 
 - (BOOL)application:(UIApplication *)application
     didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+  if (kMapsAPIKey.length == 0) {
+    NSLog(@"⚠️ WARNING: set `kMapsAPIKey` to a valid maps API key registered with the demo app bundle id for.");
+  }
   [GMSServices provideAPIKey:kMapsAPIKey];
 
   MasterViewController *rootViewController = [[MasterViewController alloc] init];
